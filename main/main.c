@@ -73,9 +73,9 @@ void mdns_setup() {
 }
 
 void app_main() {
-    // struct rst_info *rtc_info = system_get_rst_info();
+    struct rst_info *rtc_info = system_get_rst_info();
 
-    // os_printf("reset reason: %x\n", rtc_info->reason);
+    os_printf("reset reason: %x\n", rtc_info->reason);
 
     // if (rtc_info->reason == REASON_WDT_RST ||
     //     rtc_info->reason == REASON_EXCEPTION_RST ||
