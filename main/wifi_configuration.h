@@ -32,7 +32,7 @@ static struct {
 
 #define USE_STATIC_IP 1
 // If you don't want to specify the ip configuration, then ignore the following items.
-#define DAP_IP_ADDRESS 172, 16, 1, 66
+#define DAP_IP_ADDRESS 172, 16, 1, 55
 #define DAP_IP_GATEWAY 172, 16, 1, 1
 #define DAP_IP_NETMASK 255, 255, 255, 0
 //
@@ -41,7 +41,7 @@ static struct {
 
 #define USE_UART_BRIDGE      0
 #define UART_BRIDGE_PORT     1234
-#define UART_BRIDGE_BAUDRATE 74880
+#define UART_BRIDGE_BAUDRATE 9600
 //
 
 // DO NOT CHANGE
